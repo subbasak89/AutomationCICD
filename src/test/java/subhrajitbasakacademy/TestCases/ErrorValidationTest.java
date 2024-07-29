@@ -18,6 +18,7 @@ public class ErrorValidationTest extends BaseTest {
 		lp.loginApplication("subhrajitbasak66@gmail.com", "Subsen1989");
 
 		Assert.assertEquals(lp.getError(), "Incorrect email or password.");
+		System.out.println("This test is passed at last");
 
 	}
 	
